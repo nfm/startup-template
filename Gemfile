@@ -16,3 +16,9 @@ group :development, :test do
   gem 'spring'
   gem 'web-console', '~> 2.0'
 end
+
+group :development do
+  gem 'guard', require: false
+  gem 'guard-bower', require: false
+  gem 'guard-ctags-bundler', require: false
+end
