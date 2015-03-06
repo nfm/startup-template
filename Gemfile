@@ -20,6 +20,7 @@ group :development, :test do
 end
 
 group :development do
+  gem 'foreman'
   gem 'guard', require: false
   gem 'guard-bower', require: false
   gem 'guard-ctags-bundler', require: false
