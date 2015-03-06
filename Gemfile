@@ -9,6 +9,7 @@ gem 'pg'
 gem 'pry-doc'
 gem 'pry-rails'
 gem 'puma'
+gem 'sidekiq'
 gem 'turbolinks'
 
 # Assets
