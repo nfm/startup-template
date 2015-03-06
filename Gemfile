@@ -6,6 +6,7 @@ gem 'haml'
 gem 'pg'
 gem 'pry-doc'
 gem 'pry-rails'
+gem 'puma'
 gem 'turbolinks'
 
 # Assets
