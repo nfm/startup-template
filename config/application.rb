@@ -25,10 +25,5 @@ module StartupTemplate
 
     # Use sidekiq as Active Job's queue adapter
     config.active_job.queue_adapter = :sidekiq
-
-    # Use system-js for Sprockets ES6 modules
-    Rails.application.config.assets.configure do |env|
-      env.register_transformer 'text/ecmascript-6', 'application/javascript', Sprockets::ES6.new('modules' => 'system', 'moduleIds' => true)
-    end
   end
 end
