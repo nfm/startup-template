@@ -35,6 +35,6 @@ group :development do
   gem 'guard-ctags-bundler', require: false
 end
 
-group :production do
+group :staging, :production do
   gem 'rails_12factor'
 end
