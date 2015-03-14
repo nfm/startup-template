@@ -3,6 +3,7 @@ namespace :heroku do
   task :bootstrap do
     run "heroku apps:create #{ENV['APP_NAME']}"
     run "heroku config:set BUILDPACK_URL=https://github.com/ddollar/heroku-buildpack-multi.git"
+    run "heroku config:set REDIS_PROVIDER=REDISCLOUD_URL"
     run "heroku addons:add papertrail"
     run "heroku addons:add newrelic"
     run "heroku addons:add rediscloud"
