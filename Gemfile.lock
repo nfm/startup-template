@@ -64,6 +64,7 @@ GEM
     debugger-linecache (1.2.0)
     dotenv (1.0.2)
     erubis (2.7.0)
+    eventy (0.0.3)
     execjs (2.4.0)
     ffi (1.9.6)
     foreman (0.77.0)
@@ -215,6 +216,7 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 4.1.0)
+  eventy
   foreman
   guard
   guard-bower
