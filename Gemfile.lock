@@ -37,6 +37,9 @@ GEM
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
     arel (6.0.0)
+    autoprefixer-rails (5.1.7)
+      execjs
+      json
     babel-source (4.7.9)
     babel-transpiler (0.6.0)
       babel-source (>= 4.0, < 5)
@@ -215,6 +218,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  autoprefixer-rails
   coffee-rails (~> 4.1.0)
   eventy
   foreman

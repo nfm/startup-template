@@ -4,6 +4,7 @@ ruby '2.2.0'
 
 gem 'rails', '4.2.0'
 
+gem 'autoprefixer-rails'
 gem 'eventy'
 gem 'haml'
 gem 'newrelic_rpm'
